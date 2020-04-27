@@ -1,7 +1,7 @@
 CREATE TABLE DT_tbl (
 
 DT_No int IDENTITY (1,1) PRIMARY KEY,
-DT_OPNo int NOT NULL,
+DT_DTHNo int NOT NULL,
 DT_DStartTime Datetime NOT NULL,
 DT_DEndTime Datetime NOT NULL,
 DT_Minutes int NOT NULL, -- Computed Value
